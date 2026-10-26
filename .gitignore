@@ -16,3 +16,6 @@ work/
 *.pcap*
 .env*
 *.log
+!downloads/**/*.bin
+!downloads/**/*.apk
+!library/firmware/**/*.bin

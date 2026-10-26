@@ -1,0 +1,136 @@
+{
+  "source_sha256": "8c83d3492e1a45b1240f5e15e2a2a46745b0954fb123a17af9b102bd96fb4182",
+  "candidate": {
+    "sha256": "2898ceb0e96b74529a13b482c2087c70d0f351de17d27f98bf9f61439acab3d0",
+    "bytes": 1079791,
+    "image_sha256": "0de5b1c3febddb61e59aa5ffa9209c4998fd48a3f1a509bc0c9f618ec6da1adc",
+    "image_bytes": 1857368,
+    "blocks": 10,
+    "project_field": 2321,
+    "destination_fields": [
+      65536,
+      65536
+    ],
+    "cumulative_crc_count": 17,
+    "crc_checks": "passed; not a digital signature or device-boot test"
+  },
+  "scale": 0.99,
+  "image_changed_bytes": 10,
+  "image_changes": [
+    {
+      "start": "0x1c3e20",
+      "end_exclusive": "0x1c3e23",
+      "old_hex": "000080",
+      "new_hex": "a4707d"
+    },
+    {
+      "start": "0x1c5700",
+      "end_exclusive": "0x1c5706",
+      "old_hex": "313844433332",
+      "new_hex": "323639354535"
+    },
+    {
+      "start": "0x1c5707",
+      "end_exclusive": "0x1c5708",
+      "old_hex": "35",
+      "new_hex": "31"
+    }
+  ],
+  "header_changes": [
+    {
+      "start": "0x4",
+      "end_exclusive": "0x5",
+      "old_hex": "ee",
+      "new_hex": "ef"
+    },
+    {
+      "start": "0x8",
+      "end_exclusive": "0xc",
+      "old_hex": "5951a83e",
+      "new_hex": "20b74ea0"
+    },
+    {
+      "start": "0x24",
+      "end_exclusive": "0x28",
+      "old_hex": "b6f73793",
+      "new_hex": "6d18452a"
+    },
+    {
+      "start": "0x70",
+      "end_exclusive": "0x78",
+      "old_hex": "5951a83ee64ea62b",
+      "new_hex": "20b74ea0adb44c8d"
+    }
+  ],
+  "only_scale_and_required_container_fields_changed": true,
+  "changed_compressed_blocks_zero_based": [
+    9
+  ],
+  "device_boot": "not tested by this tool",
+  "acoustic_performance": "not measured",
+  "independent_7zip_streams": 20,
+  "application_validators": [
+    1,
+    1
+  ],
+  "native_crc": {
+    "payload_crc": "0xa04eb720",
+    "image_crc": "0x2a45186d",
+    "inner_crc": "0x2695e5d1",
+    "native_cumulative_crc_entries": 17,
+    "all_native_crc_checks_pass": true
+  },
+  "original_gain_setter_executions": [
+    {
+      "input_q9": 0,
+      "ff_staged_q9": 0,
+      "fb_staged_q9": 0
+    },
+    {
+      "input_q9": 128,
+      "ff_staged_q9": 126,
+      "fb_staged_q9": 128
+    },
+    {
+      "input_q9": 250,
+      "ff_staged_q9": 247,
+      "fb_staged_q9": 250
+    },
+    {
+      "input_q9": 256,
+      "ff_staged_q9": 253,
+      "fb_staged_q9": 256
+    },
+    {
+      "input_q9": 511,
+      "ff_staged_q9": 505,
+      "fb_staged_q9": 511
+    },
+    {
+      "input_q9": 512,
+      "ff_staged_q9": 506,
+      "fb_staged_q9": 512
+    }
+  ],
+  "negative_controls": [
+    "payload bit flip rejected",
+    "bad magic rejected",
+    "oversize image rejected"
+  ],
+  "environment": {
+    "python": "3.10.9",
+    "unicorn": "2.1.4",
+    "zlib": "1.2.13",
+    "sevenzip": [
+      "",
+      "NanaZip 7.0 Preview, version 2609.2 (x64) : (c) M2-Team and Contributors. All rights reserved.",
+      "",
+      ""
+    ]
+  },
+  "checks_complete": true,
+  "limits": [
+    "Synthetic RAM and intercepted IO; no real Flash, bootloader or radio.",
+    "No acoustic-stability, signature-bypass or recovery claim."
+  ]
+}

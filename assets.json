@@ -1,0 +1,191 @@
+{
+  "files": [
+    {
+      "path": "downloads/app/vivotws_local_FW.apk",
+      "sha256": "5336b406ee17451e5af3033183ec03d127eb76786fcce395d75b6c104b3f02a0",
+      "bytes": 62033366,
+      "kind": "app",
+      "purpose": "Read /sdcard/vivotws/update.bin through the existing update flow"
+    },
+    {
+      "path": "downloads/TWS3e/v2.6.3/original.bin",
+      "sha256": "8c83d3492e1a45b1240f5e15e2a2a46745b0954fb123a17af9b102bd96fb4182",
+      "bytes": 1079790,
+      "kind": "firmware",
+      "model": "TWS3e",
+      "version": "2.6.3",
+      "scale": 1.0,
+      "role": "official"
+    },
+    {
+      "path": "downloads/TWS3e/v2.6.3/ff-0.50.bin",
+      "sha256": "9179d99568a28c7b66b5464cfd13f0106cb17eb79c15647b9dcbac0f81f83507",
+      "bytes": 1079788,
+      "kind": "firmware",
+      "model": "TWS3e",
+      "version": "2.6.3",
+      "scale": 0.5,
+      "role": "FF gain experiment"
+    },
+    {
+      "path": "downloads/TWS3e/v2.6.3/ff-0.99.bin",
+      "sha256": "2898ceb0e96b74529a13b482c2087c70d0f351de17d27f98bf9f61439acab3d0",
+      "bytes": 1079791,
+      "kind": "firmware",
+      "model": "TWS3e",
+      "version": "2.6.3",
+      "scale": 0.99,
+      "role": "FF gain experiment"
+    },
+    {
+      "path": "downloads/TWS3e/v2.6.3/ff-1.01.bin",
+      "sha256": "646e4bc85fd8e3ac78fd01d9c16c4e222004215470953a956d31b6feac63a426",
+      "bytes": 1079790,
+      "kind": "firmware",
+      "model": "TWS3e",
+      "version": "2.6.3",
+      "scale": 1.01,
+      "role": "FF gain experiment"
+    },
+    {
+      "path": "downloads/TWS3e/v2.6.3/ff-1.25.bin",
+      "sha256": "3625043c7a3a11534e8a016fed0e79f721c2e61adee5352b5b5b025b1debf97e",
+      "bytes": 1079788,
+      "kind": "firmware",
+      "model": "TWS3e",
+      "version": "2.6.3",
+      "scale": 1.25,
+      "role": "FF gain experiment"
+    },
+    {
+      "path": "downloads/TWS3e/v2.6.3/ff-1.50.bin",
+      "sha256": "4242ea882f834f74d3d881f4075478ed4574a188fb7a5a250091f29a8ccf7f39",
+      "bytes": 1079787,
+      "kind": "firmware",
+      "model": "TWS3e",
+      "version": "2.6.3",
+      "scale": 1.5,
+      "role": "FF gain experiment"
+    },
+    {
+      "path": "library/firmware/TWS4/2.50.7.bin",
+      "sha256": "eb78895134e4b53b9f92571da3836383f0bdc3160a41881337b8a56e5600d426",
+      "bytes": 3640168,
+      "kind": "reference-firmware",
+      "model": "TWS4",
+      "version": "2.50.7",
+      "format": "APPUHDR5",
+      "source_filename": "vivo TWS4 HIFI 2.50.7版本.bin"
+    },
+    {
+      "path": "library/firmware/TWS4/2.50.8.bin",
+      "sha256": "f4bc9321bed76b4344290a6a627668489ae05e8951cc2bbc55e45823dc57216a",
+      "bytes": 3640180,
+      "kind": "reference-firmware",
+      "model": "TWS4",
+      "version": "2.50.8",
+      "format": "APPUHDR5",
+      "source_filename": "vivoTWS4HIFI 2.50.8版本.bin"
+    },
+    {
+      "path": "library/firmware/TWS4/2.56.6.bin",
+      "sha256": "2ecad6489cfacd7b914e113622ca83287bacb15ae116b844d743c15ff3a52ca7",
+      "bytes": 3696008,
+      "kind": "reference-firmware",
+      "model": "TWS4",
+      "version": "2.56.6",
+      "format": "APPUHDR5",
+      "source_filename": "vivotws4hifi2.56.6.bin"
+    },
+    {
+      "path": "library/firmware/TWS4/2.57.1.bin",
+      "sha256": "1d10155e2cd739e7ca4a8f0f0e0bb9b0bfd4b7a5eda2a8a415e8202fb8122ac7",
+      "bytes": 3693924,
+      "kind": "reference-firmware",
+      "model": "TWS4",
+      "version": "2.57.1",
+      "format": "APPUHDR5",
+      "source_filename": "vivotws4hifi2.57.1.bin"
+    },
+    {
+      "path": "library/firmware/TWS4/2.57.2.bin",
+      "sha256": "f0c2446e6fe8f92b23fff6dccbc1c50d7b3315990077a9209aa5df4fc6b13b8a",
+      "bytes": 3645612,
+      "kind": "reference-firmware",
+      "model": "TWS4",
+      "version": "2.57.2",
+      "format": "APPUHDR5",
+      "source_filename": "vivotws4hifi2.57.2.bin"
+    },
+    {
+      "path": "library/firmware/TWS4/2.58.2.bin",
+      "sha256": "2dda46dd1e0f8bd2b610918a7bf87d5f405ed580a62d243c13c25493cfb6cdbd",
+      "bytes": 3467384,
+      "kind": "reference-firmware",
+      "model": "TWS4",
+      "version": "2.58.2",
+      "format": "APPUHDR5",
+      "source_filename": "vivotws4hifi2.58.2.bin"
+    },
+    {
+      "path": "library/firmware/TWS4/2.58.3.bin",
+      "sha256": "639cee03a1a8e469ae81fc8772b6730c5c19e0f98dbe11edae0b4164c9e2e218",
+      "bytes": 3479068,
+      "kind": "reference-firmware",
+      "model": "TWS4",
+      "version": "2.58.3",
+      "format": "APPUHDR5",
+      "source_filename": "2.58.3.bin"
+    },
+    {
+      "path": "library/firmware/TWS4/2.58.5.bin",
+      "sha256": "2d077ef3e994b39938e9d236ddee4db44961a33015fa4bc95be8b6517f39cde8",
+      "bytes": 3589480,
+      "kind": "reference-firmware",
+      "model": "TWS4",
+      "version": "2.58.5",
+      "format": "APPUHDR5",
+      "source_filename": "2.58.5.bin"
+    },
+    {
+      "path": "library/firmware/TWS3/2.12.2.bin",
+      "sha256": "1ee048624fb970ed5cf4e1c4c61a5da29ae7c5e693dd868647640885099fb218",
+      "bytes": 3134320,
+      "kind": "reference-firmware",
+      "model": "TWS3",
+      "version": "2.12.2",
+      "format": "APPUHDR5",
+      "source_filename": "2.12.2.bin"
+    },
+    {
+      "path": "library/firmware/TWS3/2.12.6.bin",
+      "sha256": "a5be342e7a07a82128a6e5d5ec681cfb9b1a5687ccd890198c3405bce199464e",
+      "bytes": 3138388,
+      "kind": "reference-firmware",
+      "model": "TWS3",
+      "version": "2.12.6",
+      "format": "APPUHDR5",
+      "source_filename": "2.12.6.bin"
+    },
+    {
+      "path": "library/firmware/TWS3Pro/3.8.6.bin",
+      "sha256": "7c8b0b52129f6b5f1d9d2ad7719d7a712c981ba1dfae7a83e6e267b6ae97a2bc",
+      "bytes": 3579636,
+      "kind": "reference-firmware",
+      "model": "TWS3Pro",
+      "version": "3.8.6",
+      "format": "APPUHDR5",
+      "source_filename": "3Pro3.8.6.bin"
+    },
+    {
+      "path": "library/firmware/TWS3Pro/3.9.7.bin",
+      "sha256": "5e1c74fed7486cfb62e97775321f6d2b863773e4572334d3887a7f2a79f6bf02",
+      "bytes": 3594184,
+      "kind": "reference-firmware",
+      "model": "TWS3Pro",
+      "version": "3.9.7",
+      "format": "APPUHDR5",
+      "source_filename": "3Pro3.9.7.bin"
+    }
+  ]
+}
