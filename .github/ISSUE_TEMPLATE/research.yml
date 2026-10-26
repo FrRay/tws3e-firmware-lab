@@ -1,0 +1,23 @@
+name: 研究复核或实验反馈
+description: 提交可复现结果，区分离线检查和实机观察
+body:
+  - type: textarea
+    attributes:
+      label: 型号、固件与文件哈希
+      description: 不要填写 MAC、序列号、账号或个人抓包。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 命令与环境
+      description: Python、7-Zip、工具提交；安装反馈另列手机系统和 APK 哈希。
+  - type: textarea
+    attributes:
+      label: 实际观察
+      description: 是字节差异、模拟结果、安装结果还是听感？提供完整错误及复现步骤。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 判断与待验证问题
+      description: 说明证据支持什么，还不能推出什么。
